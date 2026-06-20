@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="海洋生物多様性の重要性、脅威、調査活動、保全行動を学ぶ教育ウェブサイト。">
+  <title>海をつなぐ｜海洋生物多様性プロジェクト</title>
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="海をつなぐ ホーム">
+        <span class="brand-mark" aria-hidden="true">◌</span>
+        <span><strong>海をつなぐ</strong><small>MARINE BIODIVERSITY PROJECT</small></span>
+      </a>
+      <button class="menu-button" aria-expanded="false" aria-controls="global-nav">メニュー</button>
+      <nav id="global-nav" class="global-nav" aria-label="主要ナビゲーション">
+        <a href="#about">海洋生物多様性</a>
+        <a href="#threats">海の危機</a>
+        <a href="#research">調査活動</a>
+        <a href="#actions">行動する</a>
+        <a href="#resources">資料</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" role="img" aria-label="色鮮やかなサンゴ礁の海中風景"></div>
+      <div class="hero-overlay"></div>
+      <div class="bubble bubble-1"></div><div class="bubble bubble-2"></div><div class="bubble bubble-3"></div>
+      <div class="container hero-content reveal">
+        <p class="eyebrow">命がつながる、青い世界。</p>
+        <h1 id="hero-title">海の多様性を知り、<br><span>未来へつなぐ。</span></h1>
+        <p class="hero-lead">海は、目に見えないプランクトンから巨大なクジラまで、多様な命を支えています。知ること、調べること、行動することから保全は始まります。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#about">海の世界を知る</a>
+          <a class="button ghost" href="#resources">教材を見る</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="次のセクションへ">SCROLL <span>↓</span></a>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">01 / UNDERSTAND</p>
+          <h2>海洋生物多様性とは</h2>
+          <p>海に暮らす生物の種類だけでなく、遺伝子の違い、生態系の違い、そしてそれらのつながりまでを含む概念です。</p>
+        </div>
+
+        <div class="stat-grid">
+          <article class="stat-card reveal">
+            <strong>約71<span>%</span></strong>
+            <h3>地球表面を覆う海</h3>
+            <p>海は地球規模の気候と物質循環を支える巨大な生態系です。</p>
+          </article>
+          <article class="stat-card reveal">
+            <strong>90<span>%超</span></strong>
+            <h3>地球の生息可能空間</h3>
+            <p>海は深さを持つため、生物が暮らせる空間の大部分を占めます。</p>
+          </article>
+          <article class="stat-card reveal">
+            <strong>3<span>つ</span></strong>
+            <h3>多様性のレベル</h3>
+            <p>生態系・種・遺伝子の多様性が互いに支え合っています。</p>
+          </article>
+        </div>
+
+        <div class="ecosystem-grid">
+          <article class="ecosystem-card coral reveal">
+            <div class="ecosystem-icon">🪸</div>
+            <h3>サンゴ礁</h3>
+            <p>複雑な構造が隠れ家と産卵場所を生み、多くの生物を支えます。</p>
+          </article>
+          <article class="ecosystem-card coast reveal">
+            <div class="ecosystem-icon">🌿</div>
+            <h3>藻場・干潟</h3>
+            <p>幼い魚の育成場となり、水質浄化や海岸保全にも役立ちます。</p>
+          </article>
+          <article class="ecosystem-card open-sea reveal">
+            <div class="ecosystem-icon">🐋</div>
+            <h3>外洋・深海</h3>
+            <p>広大な回遊経路と未解明の生態系が、地球規模でつながっています。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section threats" id="threats">
+      <div class="container">
+        <div class="section-heading light reveal">
+          <p class="section-kicker">02 / FACE THE PROBLEM</p>
+          <h2>海で起きていること</h2>
+          <p>気候変動、汚染、過剰利用、生息地の改変は単独ではなく、重なり合って海の生態系に影響します。</p>
+        </div>
+
+        <div class="threat-feature reveal">
+          <img src="assets/plastic-pollution.jpg" alt="海岸に流れ着いた大量の海洋ごみ" loading="lazy">
+          <div class="threat-copy">
+            <span class="tag">海洋ごみ</span>
+            <h3>捨てた場所と、影響が現れる場所は同じとは限らない。</h3>
+            <p>街や川から流れ出たプラスチックは遠くの海岸へ運ばれ、生物の誤食や絡まり、生息環境の悪化を引き起こします。</p>
+          </div>
+        </div>
+
+        <div class="threat-list">
+          <article class="threat-item reveal"><span>01</span><div><h3>海水温の上昇</h3><p>サンゴの白化、分布域の変化、季節的な生態リズムの乱れにつながります。</p></div></article>
+          <article class="threat-item reveal"><span>02</span><div><h3>過剰漁獲・混獲</h3><p>特定の種だけでなく、食物網全体のバランスを変える可能性があります。</p></div></article>
+          <article class="threat-item reveal"><span>03</span><div><h3>沿岸開発と生息地の減少</h3><p>干潟、藻場、砂浜など、繁殖や成長に重要な場所が失われます。</p></div></article>
+          <article class="threat-item reveal"><span>04</span><div><h3>外来種と化学物質</h3><p>本来の生態系の関係を変え、長期的な影響を残すことがあります。</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section species-story">
+      <div class="container story-grid">
+        <div class="story-image reveal">
+          <img src="assets/green-turtle.jpg" alt="海中を泳ぐアオウミガメ" loading="lazy">
+          <p class="photo-credit">Photo: RobertoCostaPinto / CC BY-SA 4.0</p>
+        </div>
+        <div class="story-copy reveal">
+          <p class="section-kicker">CONNECTED OCEAN</p>
+          <h2>ウミガメが教えてくれる、海のつながり。</h2>
+          <p>ウミガメは成長や産卵のために長い距離を移動します。ある地域だけを守っても、移動先の海や砂浜が失われれば生き続けることはできません。</p>
+          <blockquote>海洋生物の保全には、国境を越えた協力と、陸・川・海を一体として考える視点が必要です。</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section research" id="research">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">03 / OBSERVE & RECORD</p>
+          <h2>地域の海を調べる</h2>
+          <p>大規模な研究だけが調査ではありません。同じ場所を同じ方法で観察し、記録を積み重ねることが変化の発見につながります。</p>
+        </div>
+
+        <div class="research-steps">
+          <article class="step-card reveal"><span>STEP 1</span><h3>場所を決める</h3><p>海岸、河口、干潟など、安全に継続観察できる地点を選びます。</p></article>
+          <article class="step-card reveal"><span>STEP 2</span><h3>同じ方法で測る</h3><p>日時、天候、生物、ごみ、水温など、項目を統一して記録します。</p></article>
+          <article class="step-card reveal"><span>STEP 3</span><h3>比較して伝える</h3><p>写真や表を用いて変化を整理し、地域の人と結果を共有します。</p></article>
+        </div>
+
+        <div class="report-preview reveal">
+          <div>
+            <span class="tag blue">調査報告書</span>
+            <h3>沿岸環境観察レポート</h3>
+            <p>調査目的、方法、観察結果、考察、今後の提案をまとめた印刷用ページです。現在は授業用のサンプル構成を収録しています。</p>
+            <a class="text-link" href="report.html">報告書のページを見る →</a>
+          </div>
+          <div class="mini-chart" aria-label="観察項目の構成例">
+            <div><span>生物観察</span><i style="--value:82%"></i></div>
+            <div><span>海岸ごみ</span><i style="--value:64%"></i></div>
+            <div><span>水質・水温</span><i style="--value:48%"></i></div>
+            <small>※数値はレイアウト確認用のサンプルです。</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section actions" id="actions">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">04 / TAKE ACTION</p>
+          <h2>今日からできること</h2>
+          <p>完璧な行動を一度だけ行うより、小さな選択を継続する方が現実的です。</p>
+        </div>
+
+        <div class="action-grid">
+          <article class="action-card reveal"><span>01</span><h3>使い捨てを減らす</h3><p>マイボトルや繰り返し使える容器を選び、ごみの発生そのものを抑えます。</p></article>
+          <article class="action-card reveal"><span>02</span><h3>海につながる街を清掃する</h3><p>海岸だけでなく、道路や川沿いの清掃も海洋ごみ対策になります。</p></article>
+          <article class="action-card reveal"><span>03</span><h3>持続可能な水産物を選ぶ</h3><p>資源管理や生態系への影響を考えた商品・店舗を調べて選択します。</p></article>
+          <article class="action-card reveal"><span>04</span><h3>観察して共有する</h3><p>見つけた生物や環境変化を記録し、正確な情報として周囲に伝えます。</p></article>
+        </div>
+
+        <div class="pledge reveal">
+          <div>
+            <p class="section-kicker">MY OCEAN PLEDGE</p>
+            <h3>私の「海を守る行動」を一つ選ぶ</h3>
+            <p id="pledge-message">下のボタンを押すと、この端末に選択が保存されます。</p>
+          </div>
+          <div class="pledge-buttons" role="group" aria-label="行動宣言">
+            <button data-pledge="使い捨てプラスチックを一つ減らします。">使い捨てを減らす</button>
+            <button data-pledge="月に一度、地域のごみを拾います。">地域を清掃する</button>
+            <button data-pledge="海の問題を一人に伝えます。">学んだことを伝える</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section">
+      <div class="container quiz-wrap reveal">
+        <div>
+          <p class="section-kicker">MINI QUIZ</p>
+          <h2>海のつながりクイズ</h2>
+          <p>正しいと思う答えを選んでください。</p>
+        </div>
+        <div class="quiz" data-answer="b">
+          <p class="quiz-question">海洋生物多様性を守るために、特に重要な考え方はどれでしょうか。</p>
+          <button data-choice="a">海の問題は海岸だけで解決する</button>
+          <button data-choice="b">陸・川・海のつながりを考える</button>
+          <button data-choice="c">珍しい生物だけを守る</button>
+          <p class="quiz-result" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resources" id="resources">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">05 / SHARE</p>
+          <h2>学習・展示用資料</h2>
+          <p>ウェブサイトと統一したデザインで、報告書、展示パネル、三つ折りパンフレットの印刷用ページを用意しています。</p>
+        </div>
+        <div class="resource-grid">
+          <a class="resource-card reveal" href="report.html"><span>01</span><div><h3>調査報告書</h3><p>A4印刷向け・調査の構成例</p></div><b>→</b></a>
+          <a class="resource-card reveal" href="panels.html"><span>02</span><div><h3>展示パネル</h3><p>A3横・3枚構成の展示例</p></div><b>→</b></a>
+          <a class="resource-card reveal" href="pamphlet.html"><span>03</span><div><h3>パンフレット</h3><p>A4三つ折り・両面構成例</p></div><b>→</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sources-section">
+      <div class="container">
+        <details>
+          <summary>情報源・写真クレジット</summary>
+          <ul>
+            <li><a href="https://www.env.go.jp/nature/biodic/kaiyo-hozen/" target="_blank" rel="noopener">環境省「海洋生物多様性保全戦略」</a></li>
+            <li><a href="https://www.cbd.int/marine/intro.shtml" target="_blank" rel="noopener">Convention on Biological Diversity: Marine and Coastal Biodiversity</a></li>
+            <li><a href="https://www.unep.org/topics/ocean-seas-and-coasts" target="_blank" rel="noopener">UNEP: Ocean, seas and coasts</a></li>
+            <li><a href="https://oceanservice.noaa.gov/observations/mbon.html" target="_blank" rel="noopener">NOAA Marine Biodiversity Observation Network</a></li>
+            <li>Hero photo: Jim E Maragos / U.S. Fish and Wildlife Service, Public Domain</li>
+            <li>Plastic pollution photo: NOAA's National Ocean Service, Public Domain</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>海をつなぐ</strong><p>海洋生物多様性の普及と保護のための教育プロジェクト</p></div>
+      <div><a href="#top">ページ上部へ ↑</a><p>© 2026 Marine Biodiversity Project</p></div>
+    </div>
+  </footer>
+</body>
+</html>
