@@ -61,3 +61,11 @@ document.querySelectorAll('.quiz').forEach(quiz => {
     });
   });
 });
+
+
+document.querySelectorAll('[data-scroll-top]').forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  });
+});

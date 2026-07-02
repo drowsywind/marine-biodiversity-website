@@ -1,25 +1,34 @@
-# marine-biodiversity-website
-A Japanese educational website promoting awareness and conservation of marine biodiversity, including a research report, exhibition panels, and a pamphlet.
-海洋生物多様性ウェブサイト
-============================
+# Marine Biodiversity Website
 
-開き方
-1. フォルダ内の index.html をダブルクリックしてください。
-2. Chrome / Edge / Safari などのブラウザで表示できます。
+海洋生物多様性の普及と保護を目的とした日本語の教育ウェブサイトです。
 
-ファイル
-- index.html      メインサイト
-- report.html     調査報告書（A4印刷用）
-- panels.html     展示パネル（A3横想定）
-- pamphlet.html   三つ折りパンフレット（A4横想定）
-- styles.css      全体デザイン
-- script.js       メニュー、アニメーション、クイズ、行動宣言
-- assets/         画像素材
+## 内容
 
-PDF保存
-report.html / panels.html / pamphlet.html 上部の「印刷 / PDF保存」を押し、
-印刷画面から「PDFとして保存」を選択してください。
+- 海洋生物多様性の3つのレベル（生態系・種・遺伝子）
+- 海の生きものの普及解説
+- 海洋ごみ、気候変動、過剰漁獲などの課題
+- 沿岸環境観察の方法
+- 完成例付きの調査報告書
+- 展示パネル、三つ折りパンフレット
+- 公的機関の外部情報リンク
 
-注意
-- 報告書内の数値はレイアウト確認用サンプルです。実際の調査結果に置き換えてください。
-- 展示パネルはA3横を想定していますが、家庭用プリンターでは縮小される場合があります。
+## 使用技術
+
+- HTML5
+- CSS3
+- JavaScript
+- GitHub
+- Netlify
+
+## 重要事項
+
+`report.html` の数値と観察記録は授業用モデルデータです。実際の調査結果を提出する場合は、日付、地点、写真、個体数、ごみ数などを実測値へ置き換えてください。
+
+## ファイル
+
+- `index.html`：メインサイト
+- `report.html`：沿岸環境観察調査報告書
+- `panels.html`：展示パネル
+- `pamphlet.html`：三つ折りパンフレット
+- `styles.css`：共通スタイル
+- `script.js`：メニュー、アニメーション、クイズなど
